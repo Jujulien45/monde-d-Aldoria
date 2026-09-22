@@ -1,7 +1,7 @@
 import pygame
 
 
-class Game:
+class App:
     def __init__(self):
         pass
 

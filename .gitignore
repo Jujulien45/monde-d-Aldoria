@@ -216,4 +216,4 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-/DB/Aldoria_id.lo1
+/db/Aldoria_id.lo1

@@ -1,8 +1,8 @@
 import pygame
-from game import Game
+from src.app import App
 
 
 if __name__ == "__main__":
-    game = Game()
+    game = App()
     game.run()
 

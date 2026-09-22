@@ -1,5 +1,5 @@
 import pygame
-from src.objects.drawable import Drawable
+from src.entities.drawable import Drawable
 
 
 class StaticBody(Drawable):
@@ -11,3 +11,8 @@ class StaticBody(Drawable):
 
         self.collider = pygame.FRect((0, 0), collider_size)
         self.collider.midbottom = midbottom
+        self.z
+
+    @property
+    def centery(self) -> float:
+        return self.collider.centery

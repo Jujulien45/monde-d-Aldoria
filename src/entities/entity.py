@@ -1,9 +1,9 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
-from src.objects.drawable import Drawable
+from src.entities.drawable import Drawable
 
 if TYPE_CHECKING:
-    from src.objects.static_body import StaticBody
+    from src.entities.static_body import StaticBody
 
 import pygame
 
