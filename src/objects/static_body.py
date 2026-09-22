@@ -1,7 +1,8 @@
 import pygame
+from src.objects.drawable import Drawable
 
 
-class StaticBody:
+class StaticBody(Drawable):
     def __init__(
             self,
             midbottom: pygame.Vector2 | tuple[float, float],

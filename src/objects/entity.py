@@ -1,13 +1,14 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
+from src.objects.drawable import Drawable
 
 if TYPE_CHECKING:
-    from static_body import StaticBody
+    from src.objects.static_body import StaticBody
 
 import pygame
 
 
-class Entity:
+class Entity(Drawable):
     def __init__(
             self,
             midbottom: pygame.Vector2 | tuple[float, float],
